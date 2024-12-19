@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/blogs HTTP/1.1
+content-type: application/json
+
+{
+  "title": "test Title",
+  "author": "test author",
+  "url": "test url",
+  "likes": 123
+}
+
+###
+
+GET http://localhost:3001/api/blogs HTTP/1.1
+
+###
+
+GET http://localhost:3001 HTTP/1.1
